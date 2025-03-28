@@ -1,0 +1,78 @@
+#house {
+    margin-top: 10%;
+    justify-items: center;
+}
+
+#roof {
+    width: 330px;
+    height: 200px;
+    background-color: #472f10;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-radius: 5%;
+    border: 5px solid rgb(48, 40, 1);
+}
+
+#flue {
+    justify-items: center;
+    position: absolute;
+    margin-left: 51%;
+    width: 40px;
+    height: 160px;
+    background-color: #6e5815;
+}
+
+#flue_panel {
+    width: 50px;
+    height: 10px;
+    background-color: #472f10;
+}
+
+#wall {
+    padding-top: 10px;
+    justify-items: center;
+    width: 300px;
+    height: 190px;
+    background-color: #6e5815;
+    border: 2px solid rgb(48, 40, 1);
+}
+
+#window {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: #daf6f4;
+}
+
+#panel_vertical {
+    margin-left: 27.5px;
+    width: 5px;
+    height: 60px;
+    background-color: white;
+}
+
+#panel_horizontal {
+    position: relative;
+    bottom: 33px;
+    width: 60px;
+    height: 5px;
+    background-color: white;
+}
+
+#door {
+    margin-top: 30px;
+    bottom: 0px;
+    height: 90px;
+    width: 80px;
+    background-color: #472f10;
+}
+
+#handle {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(0% 50%, 0% 70%, 80% 80%, 80% 40%);
+    background-color: orange;
+}
