@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>ESOFT 2Task</title>
+</head>
+<body>
+    <div id="house">
+        <div id="flue">
+            <div id="flue_panel"></div>
+        </div>
+        <div id="roof"></div>
+        <div id="wall">
+            <div id="window">
+                <div id="panel_vertical"></div>
+                <div id="panel_horizontal"></div>
+            </div>
+            <div id="door">
+                <div id="handle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
